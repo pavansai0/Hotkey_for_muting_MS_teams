@@ -2,6 +2,8 @@
 
 Tested on python version 3.7.5
 
+Download mute_team_pywinauto.py
+
 Packages required:
 Pywinauto: pip install pywinauto==0.5.4
 Pyinstaller: pip install PyInstaller
