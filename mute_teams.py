@@ -1,9 +1,9 @@
 import pyautogui
 import time
-pyautogui.press('win') 
-pyautogui.moveTo(204,1059)
-pyautogui.click()
-time.sleep(0.05)
+import subprocess
+
+subprocess.Popen(['C:\Windows\System32\SndVol.exe'])
+
 x=0
 s = pyautogui.locateOnScreen('mt.png')
 
